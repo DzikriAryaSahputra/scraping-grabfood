@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# Playwright
+test-results/
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Secrets & Local Configs
+grab_curl.txt
+*.txt
+!requirements.txt
+
+# IDEs
+.idea/
+.vscode/
+*.swp
