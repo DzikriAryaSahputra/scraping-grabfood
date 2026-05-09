@@ -23,6 +23,8 @@ data/processed/*
 grab_curl.txt
 *.txt
 !requirements.txt
+!grab_curl.example.txt
+!data/lokasi_jambi.txt
 
 # IDEs
 .idea/

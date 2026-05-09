@@ -17,8 +17,8 @@ Alat otomatis (berbasis Python) untuk melakukan ekstraksi data *scraping* skala 
 
 1. **Clone repository ini**
    ```bash
-   git clone https://github.com/username-anda/scrap-e-commerce.git
-   cd scrap-e-commerce
+   git clone https://github.com/DzikriAryaSahputra/scraping-grabfood.git
+   cd scraping-grabfood
    ```
 
 2. **Buat Virtual Environment (Sangat Disarankan)**
@@ -47,9 +47,10 @@ GrabFood menerapkan perlindungan *anti-bot* yang sangat ketat. Oleh karena itu, 
 5. Di daftar *Network*, cari dan temukan *request* bernama `search`.
 6. Klik kanan pada `search` tersebut -> pilih **Copy** -> pilih **Copy as cURL (bash)**.
 
-**Langkah 2: Menjalankan Skrip**
-1. Buat file baru bernama `grab_curl.txt` di folder utama (root) proyek ini.
-2. *Paste* (tempelkan) hasil *copy* cURL tadi ke dalam file `grab_curl.txt`, lalu *Save*.
+**Langkah 2: Menyiapkan File cURL & Menjalankan Skrip**
+1. Di dalam folder proyek ini, cari file bernama `grab_curl.example.txt`.
+2. Ubah nama (*rename*) file tersebut menjadi `grab_curl.txt`.
+3. Buka file `grab_curl.txt` tersebut, lalu *Paste* (tempelkan) hasil *copy* cURL tadi ke dalamnya, lalu *Save*.
 3. Buka terminalmu dan jalankan:
    ```bash
    python src/main.py

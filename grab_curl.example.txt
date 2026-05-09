@@ -1,0 +1,1 @@
+Masukkan hasil copy cURL dari tab Network GrabFood ke dalam file ini (lalu ganti nama file ini menjadi grab_curl.txt)
